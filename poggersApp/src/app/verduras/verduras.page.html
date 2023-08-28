@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Verduras</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item *ngFor="let v of verduras">
+    <ion-avatar slot="start">
+      <ion-img [src]="v.imageURL"></ion-img>
+    </ion-avatar>
+  
+    <ion-label>{{v.name}}</ion-label>
+  </ion-item>
+  
+</ion-content>

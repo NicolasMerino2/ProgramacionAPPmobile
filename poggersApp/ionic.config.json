@@ -1,0 +1,7 @@
+{
+  "name": "poggersApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
